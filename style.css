@@ -1,11 +1,16 @@
-body {
-  background: black;
+button {
+  background: linear-gradient(45deg, #3b82f6, #6366f1);
+  border-radius: 8px;
+  padding: 10px;
   color: white;
-  text-align: center;
+  border: none;
+  cursor: pointer;
 }
 
-.product {
-  border: 1px solid white;
-  padding: 20px;
-  margin: 20px;
+button:hover {
+  transform: scale(1.05);
+}
+
+h1 {
+  font-size: 40px;
 }
